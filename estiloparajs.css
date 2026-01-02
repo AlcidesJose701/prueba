@@ -1,0 +1,78 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body{
+  height: 100%;
+}
+
+/*body{
+  background-color: aqua;
+}*/
+    
+li{
+  display: inline;
+  background-color: gold;
+  margin-left: 10px;
+  padding: 5px;
+}
+
+#cabeceraweb {
+  background-color: blue;
+  color: white;
+  padding: 15px;
+}
+
+#menuprincipal{
+  background-color: blueviolet;
+  padding: 10px;
+  color: black;
+}
+
+#barralateral{
+  background-color: chartreuse;
+  float: left;
+}
+
+#contenedoprincipal, #contenedorsecundario{
+  background-color: crimson;
+  padding: 25px;
+  gap: 5px;
+}
+
+.foto-postre{
+  background-color: darkorchid;
+  padding: 10px;
+}
+
+#pieprincipal{
+  background-color: darkgreen;
+  clear:  both;
+}
+
+#contenedor-productos-estrella{
+  display: grid;
+  gap: 15px;
+  grid-template-columns: auto auto auto;
+}
+
+.full-width{
+  grid-column: span 3;
+}
+
+main{
+  display: grid;
+  grid-template-columns: 119px auto;
+  height: 100%;
+}
+
+@media (max-width: 900px){
+  
+main{
+  display: grid;
+  grid-template-columns: auto;
+  height: 100%;
+}
+}
